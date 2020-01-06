@@ -1,0 +1,8 @@
+2020-01-06 10:49:31,479 INFO [root] [__init__.py(<module>:9)] - TEST日志器能不能正常工作
+2020-01-06 10:49:31,789 INFO [root] [login.py(test_login:30)] - 登入成功接口返回的数据为：{'code': 10000, 'data': '346b3d4f-a07a-42cf-b7a6-d1aff657b708', 'message': '操作成功！', 'success': True}
+2020-01-06 10:49:31,789 INFO [root] [login.py(test_login:39)] - 保存的令牌是：{'Authorization': 'Bearer 346b3d4f-a07a-42cf-b7a6-d1aff657b708', 'Content-Type': 'application/json'}
+2020-01-06 10:49:31,859 INFO [root] [test_emp.py(test_add_emp:30)] - 添加员工接口返回数据为：{'code': 99999, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'success': False}
+2020-01-06 10:50:22,327 INFO [root] [__init__.py(<module>:9)] - TEST日志器能不能正常工作
+2020-01-06 10:50:22,627 INFO [root] [login.py(test_login:30)] - 登入成功接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8c5c8843-02a9-4640-a78d-85eee5b096e3'}
+2020-01-06 10:50:22,627 INFO [root] [login.py(test_login:39)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 8c5c8843-02a9-4640-a78d-85eee5b096e3'}
+2020-01-06 10:50:22,697 INFO [root] [test_emp.py(test_add_emp:30)] - 添加员工接口返回数据为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}

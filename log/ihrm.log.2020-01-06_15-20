@@ -1,0 +1,4 @@
+2020-01-06 15:20:13,878 INFO [root] [__init__.py(<module>:9)] - TEST日志器能不能正常工作
+2020-01-06 15:20:15,840 INFO [root] [login.py(test_login:30)] - 登入成功接口返回的数据为：{'code': 10000, 'success': True, 'data': '9500be9c-cb52-4208-b205-f1b8ce26071a', 'message': '操作成功！'}
+2020-01-06 15:20:15,840 INFO [root] [login.py(test_login:39)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 9500be9c-cb52-4208-b205-f1b8ce26071a'}
+2020-01-06 15:20:15,918 INFO [root] [test_emp.py(test01_add_emp:20)] - 添加员工接口返回数据为：{'code': 99999, 'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！'}
